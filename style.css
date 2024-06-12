@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: linear-gradient(to right , rgb(29, 83, 90) ,black);
+    color: #fff707;
+    padding: 1em 0;
+    letter-spacing: 2px;
+    font-family:  "Lobster";
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+nav .logo {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration:solid;
+    padding: 0.5em 1em;
+}
+#para1{
+    position: absolute;
+    top: 140px;
+    left: 230px;
+}
+.work {
+    background: url('workin.jpg') no-repeat center center/cover;
+    color: #ff2103;
+    font-family:  "Dancing Script";
+    text-shadow: 2px 2px black;
+  /*position: fixed;*/
+    padding: 10em 4em;
+   
+    
+}
+
+.work-content {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 120px;
+}
+
+.work h1 {
+    font-size: 4em;
+    margin: 0.5em 0;
+}
+
+.work p {
+    font-size: 2em;
+    margin: 0.5em 0;
+    color: #faf208;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.work button {
+    background: #02be21;
+    color: #ffffff;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.work button:hover {
+    background: #ff00ee;
+}
+
+section {
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+
+footer
+ {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding:1em;
+}
+.comment
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.upper
+{
+    font-size: 30px;
+}
